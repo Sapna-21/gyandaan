@@ -12,6 +12,11 @@ import { InterestsModule } from './interests/interests.module';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import { ProfileModule } from './profile/profile.module';
+import { MatIconModule } from '@angular/material/icon';
+import {MatMenuModule} from '@angular/material/menu';
+
 
 @NgModule({
   declarations: [
@@ -27,6 +32,9 @@ import { MatButtonModule } from '@angular/material/button';
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule,
+    ProfileModule,
+    MatIconModule,
+    MatMenuModule,
     BrowserAnimationsModule
   ],
  

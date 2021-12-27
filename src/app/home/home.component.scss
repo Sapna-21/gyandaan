@@ -2,4 +2,14 @@
   padding: 4rem;
 
   font-size: 24px;
+  display: flex;
+
+  .mat-tab-group {
+    width: 96%;
+  }
+
+  .menu-icon {
+    right: 4rem;
+    top: 4rem;
+  }
 }

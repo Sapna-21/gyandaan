@@ -1,14 +1,30 @@
 <div class="home-comp">
+   
     <mat-tab-group 
-    mat-align-tabs="center" 
-    animationDuration="0ms">
+        mat-align-tabs="center" 
+        animationDuration="0ms">
         <mat-tab label="Interests"> 
             <app-add-interests></app-add-interests>
         </mat-tab>
         <mat-tab label="Events"> Content 2 </mat-tab>
         <mat-tab label="Invites"> Content 3 </mat-tab>
-        <mat-tab label="Messages"> Content 3 </mat-tab>
-
+        <mat-tab label="Messages"> 
+            <app-profile-view></app-profile-view> 
+        </mat-tab>
     </mat-tab-group>
-      
+
+    <div class="menu-icon">
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item (click)="goToProfile()">
+              <span>Profile</span>
+            </button>
+            <button mat-menu-item>
+              <span>Log Out</span>
+            </button>            
+          </mat-menu>
+    </div>  
+
 </div>

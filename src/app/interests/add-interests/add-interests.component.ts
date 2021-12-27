@@ -16,6 +16,8 @@ export class AddInterestsComponent implements OnInit {
   readonly separatorKeysCodes = [ENTER, COMMA] as const;
   fruits: Fruit[] = [{name: 'Lemon'}, {name: 'Lime'}, {name: 'Apple'}];
 
+  
+
   constructor() { }
 
   ngOnInit(): void {
@@ -41,5 +43,7 @@ export class AddInterestsComponent implements OnInit {
       this.fruits.splice(index, 1);
     }
   }
+
+
 
 }
