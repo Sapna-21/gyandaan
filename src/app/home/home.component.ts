@@ -18,5 +18,8 @@ export class HomeComponent implements OnInit {
   goToProfile() {
     this.router.navigate(["profile-view"])
   }
+
+  logout() {
+  }
  
 }

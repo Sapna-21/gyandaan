@@ -16,6 +16,7 @@ import {MatCardModule} from '@angular/material/card';
 import { ProfileModule } from './profile/profile.module';
 import { MatIconModule } from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
+import { GetStartedModule } from './get-started/get-started.module';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import {MatMenuModule} from '@angular/material/menu';
     ProfileModule,
     MatIconModule,
     MatMenuModule,
+    GetStartedModule,
     BrowserAnimationsModule
   ],
  
